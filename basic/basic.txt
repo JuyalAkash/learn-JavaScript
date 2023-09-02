@@ -1,0 +1,83 @@
+// Lexical Structure in JavaScript
+
+The lexical structure of a programming language is the set of
+elementary rules that specifies how you write programs in that
+language.
+
+Rules like what variable names look like,the delimiter characters for comments and how one program statement is separated from the next. It is the lowest-level syntax of a language.
+
+JavaScript is a case-sensitive language. This means that language
+keywords, variables, function names, and other identifiers must always
+be typed with a consistent capitalization of letters. For example, while keyword must be typed "while" not While, WHILE are distinct variable names.
+
+JavaScript ignores spaces that appears between tokens in programs and also ignores the line breaks. We can use spaces and newlines freely in our programs and also we can format and indent our programs in neat and consistent way that makes the code easy to read and understand.
+
+
+#Comments:
+JavaScript supports two styles of comments.
+
+1. Single Line
+// This is a single line comment
+
+2. Multiple line
+/*This is a multi-line comment. */
+
+#Literals:
+A literal is a data value that appears directly in a program. The following are all literals:
+12              // The number twelve
+1.2            // The number one point two
+"hello world"  // A string of text
+'Hi'           // Another string
+true           // A Boolean value
+false          // The other Boolean value
+null           // Absence of an object
+["Apple", "Banana"] // Array literal
+{name: "Vikas", age: "24"}  // Object literal 
+
+#Identifiers and Reserved Words:
+An identifier is simply a name. An identifier is a sequence of characters that 
+can be used to identify a variable, a function, an object and classes and to
+provide labels for certain loops in JavaScript code.
+
+It can start with a letter, the dollar sign ($) or an underscore _, 
+and it can contain digits (Digits are not allowed as the first character so that JavaScript
+can easily distinguish identifiers from numbers.). The dollar sign is commonly used to reference DOM elements. 
+These are all legal identifiers:
+
+i
+my_variable_name
+v13
+_dummy
+$str
+
+JavaScript reserves certain identifiers for use by the language itself. 
+These "reserved words" cannot be used as regular identifiers.
+
+as      const     export   get    null   target
+void
+async   continue  extends  if     of     this
+while
+await   debugger  false    import return throw
+with
+break  default   finally   in     set    true
+yield
+case   delete    for       instanceof  static  try
+catch  do        from      let         super   typeof
+class  else      function  new         switch  var  
+
+#Unicode:
+JavaScript programs are written using the Unicode character set, and
+you can use any Unicode characters in strings and comments. You can write identifiers in any language, 
+for example, Japanese or Chinese, with some rules.
+
+Programmers can use mathematical symbols and words from non-English languages as
+constants and variables
+
+const π = 3.14;
+const sí = true;
+
+#Optional Semicolons
+Semicolons are used in JavaScript to separate statements from each other. 
+But you can also omit the semicolon between two statements if those statements are written on separate lines.
+
+
